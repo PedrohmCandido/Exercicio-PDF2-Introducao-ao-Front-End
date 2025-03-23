@@ -3,9 +3,9 @@ import ThemeSelector from "./ThemeSelector.jsx";
 
 export default function Cadastro() {
   const [tarefas, setTarefas] = useState([
-    "Clonar cartão",
-    "Trocar óleo da Kombi",
-    "Repor estoque de nhoque recheado",
+    "Realizar Trabalho",
+    "Estudar para a Prova",
+    "Arrumar o Quarto",
   ]);
 
   const [input, setInput] = useState("");
