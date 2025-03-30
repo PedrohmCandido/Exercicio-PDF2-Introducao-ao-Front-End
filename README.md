@@ -1,11 +1,72 @@
-# React + Vite
-Este projeto diz respeito à criação de um projeto WEB de cadastro de tarefas.
- 
- O projeto foi realizado utilizando o Framework REACT juntamente com a linguagem JavaScript.
- 
- O software contempla uma interface cadastro de tarefas. Nela você consegue cadastrar o seu nome dentro do LocalStorage assim como as respectivas tarefas para que sejam dispostas em uma lista.
- As tarefas são criadas através de um Input onde o usuário digita o nome da tarefa e a cadastra depois com a opção de remoção futuramente.
- Além das tarefas o projeto também dispõe de um seletor de cores para o fundo da aplicação através de Radio Buttons.
+# Lista de Tarefas em React
+
+Este é um projeto simples desenvolvido em **React** que permite ao usuário gerenciar uma lista de tarefas. O nome do usuário e as tarefas são armazenadas no **LocalStorage** para manter os dados entre sessões.
+
+## Funcionalidades
+
+- O usuário pode inserir seu nome, que será salvo e exibido na interface.
+- Adicionar e remover tarefas da lista.
+- Alterar a cor de fundo do aplicativo.
+- Os dados do nome e da lista de tarefas são armazenados no **LocalStorage**.
+
+## Estrutura do Projeto
+
+```
+/
+|-- node_modules/
+|-- public/
+|-- src/
+|   |-- assets/
+|   |-- components/
+|   |   |-- Cadastro.jsx
+|   |   |-- ThemeSelector.jsx
+|   |-- App.jsx
+|   |-- App.css
+|   |-- index.css
+|   |-- main.jsx
+|-- .gitignore
+|-- eslint.config.js
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- vite.config.js
+```
+
+- **src/components/Cadastro.jsx**: Componente responsável pelo gerenciamento do nome do usuário e da lista de tarefas.
+- **src/components/ThemeSelector.jsx**: Componente que altera a cor de fundo do aplicativo.
+- **src/App.jsx**: Arquivo principal que gerencia os componentes.
+- **src/main.jsx**: Ponto de entrada da aplicação.
+- **index.html**: Arquivo HTML base do projeto.
+- **package.json**: Lista de dependências do projeto.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/PedrohmCandido/Exercicio-PDF2-Introducao-ao-Front-End.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd second-class
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Execute o projeto:
+   ```sh
+   npm run dev
+   ```
+
+## Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript (JSX)
+- CSS
+
+
  
  
  Tela Inicial onde cadastra-se o nome
